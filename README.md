@@ -4,12 +4,11 @@ Performing nonparametric modal regression based on kernel density estimator.
 - Paper reference: Chen, Yen-Chi, et al. "Nonparametric modal regression." The Annals of Statistics 44.2 (2016): 489-514.
 - Contact: yenchic@uw.edu
 
-
 ## ModalRegression.R:
 This contains two functions: RegMS1d and RegMS2d.
 
 ### RegMS1d
-RegMS1d = function(X, Y, G.x=X, G.y=Y, h.x, h.y, iter=100, tolerance=1e-8)
+`RegMS1d = function(X, Y, G.x=X, G.y=Y, h.x, h.y, iter=100, tolerance=1e-8)`
 
 - Input: 
   - X: covariate, 1 dimension
@@ -26,7 +25,7 @@ RegMS1d = function(X, Y, G.x=X, G.y=Y, h.x, h.y, iter=100, tolerance=1e-8)
 
 
 ### RegMS2d
-RegMS2d = function(X,Y, G.x=X, G.y=Y, h.x, h.y, iter=100,tolerance=1e-8)
+`RegMS2d = function(X,Y, G.x=X, G.y=Y, h.x, h.y, iter=100,tolerance=1e-8)`
 
 - Input: 
   - X: covariate, 2 dimension
